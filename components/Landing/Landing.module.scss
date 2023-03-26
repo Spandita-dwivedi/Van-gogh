@@ -1,0 +1,62 @@
+.main {
+
+    position: absolute;
+
+
+    img {
+
+        position: relative;
+        left: 10%;
+        z-index: -1;
+
+        @media only screen and (max-width: 1024px) {
+            left: 0;
+        }
+
+    }
+
+    .main2 {
+
+        h1 {
+
+            z-index: 1;
+            position: absolute;
+            bottom: 40%;
+            left: 50%;
+
+            @media only screen and (max-width: 1024px) {
+
+                left: 40%;
+                bottom: 40%;
+
+            }
+        }
+    }
+}
+
+
+.mains {
+    img {
+        position: relative;
+        z-index: -1;
+
+        @media only screen and (min-width: 376px) {
+            left: 5%;
+        }
+
+    }
+
+    .mains2 {
+        h1 {
+            z-index: 1;
+            position: absolute;
+            bottom: 50%;
+            left: 25%;
+
+            @media only screen and (min-width: 376px) {
+                left: 30%;
+                bottom: 60%;
+            }
+        }
+    }
+}
