@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Landingcomp from '../components/Landing/Landing'
-import Image from 'next/image'
-
+import Maincomp from '../components/Main/Main'
 import styles from '../styles/Home.module.scss'
 
 
@@ -9,7 +7,10 @@ import styles from '../styles/Home.module.scss'
 export default function Home() {
   return (
     <>
-    <Landingcomp/>
+    <Head>
+      <title>Van-Gogh</title>
+    </Head>
+    <Maincomp />
     
     </>
   )

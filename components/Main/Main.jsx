@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from "./Landing.module.scss"
+import styles from "./Main.module.scss"
 import { useState, useEffect } from 'react';
 
 
-export default function Landingcomp() {
+export default function Maincomp() {
     let fix;
     if (typeof window !== "undefined") {
       fix = window.innerWidth;
@@ -20,7 +20,7 @@ export default function Landingcomp() {
       return () => {
         window.removeEventListener('resize', setWindowDimensions)
       }
-    }, [])
+    }, []);
   
   
 
@@ -41,7 +41,7 @@ export default function Landingcomp() {
             </>
         );
     }
-if(windowWidth<700){
+else{
 return(
     <>
     <div className={styles.mains}>
