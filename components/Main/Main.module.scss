@@ -1,42 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
 .main {
 
     position: absolute;
 
-picture{
-    
-    @media (min-width: 568px){
-        position: relative;
-        left: 10%;
-        z-index: -1;
-}
+    picture {
 
-@media (min-width: 390px){
-   margin-left: 5%;
-   margin-right: 5%;
-    z-index: -1;
-}
-        
+        @media (min-width: 568px) {
+            position: relative;
+            left: 10%;
+            z-index: -1;
+        }
 
-    
-}
+        @media (min-width: 390px) and (max-width: 567px) {
+            margin-left: 5%;
+            margin-right: 5%;
+            z-index: -1;
+        }
 
-// .two{
-//     position: relative;
-//     right: 5%;
 
-// }
-   
 
-    // .main2 {
+    }
 
-    //     h1 {
+    // .two{
+    //     position: relative;
+    //     right: 5%;
 
-    //         z-index: 1;
-    //         position: absolute;
-    //         bottom: 40%;
-    //         left: 30%;
-    //     }
     // }
+
+
+    .main2 {
+
+        h1 {
+            @media (min-width: 568px) {
+                z-index: 1;
+                position: absolute;
+                bottom: 40%;
+                left: 50%;
+                font-family: 'Sacramento', cursive;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 120%;
+                text-align: center;
+
+            }
+
+            @media (max-width: 567px) {
+                z-index: 1;
+                position: absolute;
+                bottom: 40%;
+                margin-left: 8%;
+                margin-right: 8%;
+                
+                font-family: 'Sacramento', cursive;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 120%;
+                text-align: center;
+
+            }
+        }
+    }
 }
 
 
