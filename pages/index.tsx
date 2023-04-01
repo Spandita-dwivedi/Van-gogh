@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Maincomp from '../components/Main/Main'
-import Navbarcomp from '../components/Navbar/Navbar'
+import Navcomp from '../components/Nav/Nav'
 import styles from '../styles/Home.module.scss'
 
 
@@ -11,7 +11,7 @@ export default function Home() {
     <Head>
       <title>Van-Gogh</title>
     </Head>
-    <Navbarcomp />
+    <Navcomp />
     <Maincomp />
     
     </>

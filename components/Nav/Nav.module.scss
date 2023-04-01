@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sacramento&display=swap');
+
+
+.hehe {
+  
+
+         
+        position: absolute;
+    
+        display: flex;
+        flex-direction: row;
+        gap: 196px;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        margin-top: 4%;
+        z-index: 100;
+        @media (min-width: 568px) and (max-width:1280px){
+            margin-left: 45%;
+            margin-right: 45%;
+    
+        }
+            
+        
+    
+    .div2 {
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            gap: 55px;
+            font-family: 'Catamaran';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+
+
+        }
+    }
+
+
+    .div1 {
+        h1 {
+            font-family: 'Catamaran';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 33px;
+            line-height: 140%;
+        }
+    }
+
+    .div3 {
+        .button6 {
+            font-family: 'Catamaran';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 140%;
+            padding: 13px 34px;
+
+            border: 0.15vw solid rgb(241, 237, 237);
+            background: rgb(215, 214, 214);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            @media (min-width: 568px) and (max-width:1280px){
+                width: 20vw;
+            }
+
+        }
+    
+}
+
+
+}
+
+.nav3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3F3027;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    transition: all ease-out;
+    z-index: 1000;
+    
+  
+    .burger {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+  
+      .img {
+        margin: 1vw 2vw 0.5vw 1vw;
+        font-size: 6vw;
+        text-align: left;
+      }
+      .img1 {
+        margin: 1vw 0.5vw 0.5vw 1vw;
+        font-size: 1.5vw;
+      }
+      .imgs {
+        margin: 1vw;
+      }
+  
+      .hea{
+        font-family: 'Catamaran', sans-serif;
+        margin-left: 10px;
+      }
+    }
+    
+  
+    .iconnav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 3vw;
+      font-family: 'Catamaran', sans-serif;
+      text-decoration: none;
+     
+  
+      .icon {
+        margin: 2vw 0vw 2vw 0vw;
+        color: rgb(187, 182, 182);
+        text-decoration: none !important;
+        
+        
+      }
+  
+      
+    }
+  
+}
+  
+  
+  
+
+
