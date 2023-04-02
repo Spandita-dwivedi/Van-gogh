@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
 
 .main {
 
@@ -41,11 +42,7 @@
                 position: absolute;
                 bottom: 40%;
                 left: 47%;
-                font-family: 'Sacramento', cursive;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 64px;
-                line-height: 120%;
+                @include h1-cursive;
                 text-align: center;
 
             }
@@ -57,11 +54,7 @@
                 margin-left: 12%;
                 
                 
-                font-family: 'Sacramento', cursive;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 64px;
-                line-height: 120%;
+               @include h1-cursive;
                 text-align: center;
 
             }

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Search.module.scss"
 
 
+
 export default function Searchcomp(){
     return(
         <>

@@ -1,3 +1,7 @@
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
+
+
 .cont {
     display: flex;
     flex-direction: row;
@@ -23,7 +27,7 @@
         input {
             padding: 16px 243px 16px 31px;
             border: none;
-            background-color: white;
+            background-color: $neutral-300;
             @media (min-width: 200px) and (max-width: 567px){
         padding: 16px 50px 16px 10px;
             }
@@ -32,21 +36,17 @@
     }
 
     .rect {
-        background-color: black;
+        background-color: $neutral-800;
         padding: 9px 16px;
     }
 }
 
 .button6 {
-    font-family: 'Catamaran';
-    font-style: bold;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 140%;
+    @include body1-bold;
     padding: 11px 25px 11px 37px;
 
-    border: 0.15vw solid rgb(241, 237, 237);
-    background: rgb(215, 214, 214);
+    border: 0.15vw solid $neutral-100;
+    background: $neutral-100;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;

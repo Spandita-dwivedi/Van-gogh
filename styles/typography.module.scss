@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sacramento&display=swap');
+
+
+@mixin h1-bold(){
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 140%;
+
+}
+
+@mixin h1-cursive(){
+    font-family: 'Sacramento';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 120%;
+}
+
+@mixin h2-cursive(){
+    font-family: 'Sacramento';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-decoration-line: underline;
+}
+
+
+@mixin title1-bold(){
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+}
+
+@mixin title2-bold(){
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 140%;
+}
+
+@mixin title1-cursive(){
+    
+font-family: 'Sacramento';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 140%;
+}
+
+
+@mixin body1-bold(){
+    
+font-family: 'Catamaran';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+}
+
+@mixin caption1(){
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 140%;
+}

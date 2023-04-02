@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sacramento&display=swap');
 
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
 
 .hehe {
   
@@ -32,10 +33,7 @@
             display: flex;
             flex-direction: row;
             gap: 50px;
-            font-family: 'Catamaran';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
+            @include body1-bold;
           
 
         }
@@ -44,25 +42,17 @@
 
     .div1 {
         h1 {
-            font-family: 'Catamaran';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 33px;
-            line-height: 140%;
+            @include h1-bold;
         }
     }
 
     .div3 {
         .button6 {
-            font-family: 'Catamaran';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 140%;
+            @include body1-bold;
             padding: 13px 34px;
 
-            border: 0.15vw solid rgb(241, 237, 237);
-            background: rgb(215, 214, 214);
+            border: 0.15vw solid $neutral-100;
+            background: $neutral-100;
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
@@ -131,7 +121,7 @@
   
       .icon {
         margin: 2vw 0vw 2vw 0vw;
-        color: rgb(187, 182, 182);
+        color: $neutral-100;
         text-decoration: none !important;
         
         
