@@ -9,15 +9,16 @@
     
         display: flex;
         flex-direction: row;
-        gap: 196px;
+        gap: 220px;
         align-items: center;
         justify-content: center;
         width:100%;
         margin-top: 4%;
         z-index: 100;
         @media (min-width: 568px) and (max-width:1280px){
-            margin-left: 45%;
-            margin-right: 45%;
+           left: 47%;
+            
+            
     
         }
             
@@ -29,12 +30,12 @@
             list-style-type: none;
             display: flex;
             flex-direction: row;
-            gap: 55px;
+            gap: 50px;
             font-family: 'Catamaran';
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
-
+          
 
         }
     }
@@ -87,6 +88,7 @@
     color: white;
     transition: all ease-out;
     z-index: 1000;
+    
     
   
     .burger {

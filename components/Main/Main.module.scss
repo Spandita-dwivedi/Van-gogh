@@ -4,12 +4,15 @@
 .main {
 
     position: absolute;
+    
+
+   
 
     picture {
 
         @media (min-width: 568px)  {
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 9%;
+            margin-right: 9%;
             z-index: 10;
         }
 
@@ -37,7 +40,7 @@
                 z-index: 1;
                 position: absolute;
                 bottom: 40%;
-                left: 50%;
+                left: 47%;
                 font-family: 'Sacramento', cursive;
                 font-style: normal;
                 font-weight: 400;
