@@ -3,17 +3,12 @@
 @import "/styles/typography.module.scss";
 
 .main {
-
-    position: absolute;
     
-
-   
-
     picture {
 
         @media (min-width: 568px)  {
-            margin-left: 9%;
-            margin-right: 9%;
+            margin-left: 8%;
+        
             z-index: 10;
         }
 
@@ -38,19 +33,19 @@
 
         h1 {
             @media (min-width: 568px) {
-                z-index: 1;
+                z-index: 1000;
                 position: absolute;
                 bottom: 40%;
-                left: 47%;
+                left: 40%;
                 @include h1-cursive;
                 text-align: center;
 
             }
 
-            @media (max-width: 567px) {
+            @media (min-width: 200px ) and (max-width: 567px) {
                 z-index: 1000;
                 position: absolute;
-                bottom: 40%;
+               bottom: 50%;
                 margin-left: 12%;
                 
                 

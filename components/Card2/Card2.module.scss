@@ -1,0 +1,58 @@
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
+
+
+.top{
+    
+    .photo{
+        position: absolute;
+
+        
+    }
+
+    .content{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 30px;
+
+      
+      
+      img{
+        margin-top: 72px;
+        // margin-left: 95px;
+      }
+      h1{
+        margin-top: 30px;
+        @include title1-cursive;
+        // margin-left:31px;
+      }
+      p{
+        margin-top: 36px;
+        word-wrap: break-word;
+        width:190px;
+        @include body1-bold;
+        // margin-left: 37px;
+      }
+
+     
+      
+
+    }
+
+    .button{
+        position: relative;
+        
+        gap: 4px;
+        h2{
+            margin-top: 40px;
+            @include title2-bold;
+            margin-left: 41px;
+
+          }
+          img{
+            padding-left:13px;
+          }
+    }
+}

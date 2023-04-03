@@ -1,0 +1,32 @@
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
+
+
+.top{
+    border: thick solid $primary-color;
+        border-top:none;
+        display: flex;
+        justify-content: center;
+
+        .t{
+        @include h1-cursive;
+        padding-top: 91px;
+        padding-bottom: 44px; 
+    }
+
+   
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    padding-top: 42px;
+
+    .first{
+        margin-left: 50px;
+    }
+    .last{
+        padding-right: 50px;
+    }
+}

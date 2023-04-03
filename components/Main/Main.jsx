@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./Main.module.scss"
+import Navcomp from '../Nav/Nav'
+import Searchcomp from '../Search/Search'
 
 
 
@@ -8,7 +10,12 @@ import styles from "./Main.module.scss"
 export default function Maincomp() {
   return (
     <>
+    <div className={styles.headc}>
+    <Navcomp />
+    
+    <Searchcomp />
       <div className={styles.main}>
+
         <picture>
           <source srcset="/images/Group-7.png" media="(min-width: 568px)" />
           <img src="/images/Group-8.png" alt="PP" />
@@ -20,6 +27,8 @@ export default function Maincomp() {
 
        
       </div>
+      </div>
+      <br/>
 
     </>
   );
