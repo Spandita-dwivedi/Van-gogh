@@ -5,7 +5,7 @@ import Searchcomp from '../components/Search/Search'
 import Bestsellercomp from '../components/Bestseller/Bestseller'
 import styles from '../styles/Home.module.scss'
 import Advertisecomp from '../components/Advertise/Advertise'
-
+import Arrivalscomp from '../components/Arrivals/Arrivals'
 
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
     <Maincomp />
     <Bestsellercomp/>
     <Advertisecomp/>
+    <Arrivalscomp/>
     
     
     
