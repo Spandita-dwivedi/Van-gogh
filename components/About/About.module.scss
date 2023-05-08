@@ -1,0 +1,58 @@
+@import "/styles/color.module.scss";
+@import "/styles/typography.module.scss";
+
+.topmost{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 15rem;
+    
+
+
+.top{
+
+    padding: 110px 10px 37px 120px;
+    
+    border-left: solid 3px $neutral-300;
+    .photo{
+        // border: solid 2px $primary-color;
+        img{
+            padding-top: 46px;
+        }
+
+
+        h1{
+            @include h1-cursive;
+            color: #204AA4;
+        }
+
+    }
+
+    .cont{
+
+        padding: 36px 136px 33px 0px;
+       
+        p{
+            @include caption1;
+            width:300px;
+            word-wrap: break-word;
+        }
+    }
+}
+
+.top1{
+    padding-top: 190px;
+    padding-left: 160px;
+    padding-right: 180px;
+    border-left: solid 3px $neutral-300;
+    border-right: solid 3px $neutral-300;
+
+    p{
+        @include title1-cursive;
+        color: $secondary-color;
+        text-align: center;
+
+        
+    }
+}
+}
